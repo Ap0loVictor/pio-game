@@ -12,6 +12,7 @@ if (!(place_meeting(x, y+yspeed, Ground)) || (place_meeting(x, y+yspeed, Platfor
 }else{
 	yspeed = 0
 	if (key_jump){
+		audio_play_sound(jump, 10, false)
 		yspeed -= 10
 	}
 }
