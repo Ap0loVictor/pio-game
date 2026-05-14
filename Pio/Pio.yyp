@@ -30,7 +30,6 @@
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
     {"id":{"name":"Pio","path":"objects/Pio/Pio.yy",},},
     {"id":{"name":"Platform","path":"objects/Platform/Platform.yy",},},
-    {"id":{"name":"Prebicada","path":"objects/Prebicada/Prebicada.yy",},},
     {"id":{"name":"Spawner","path":"objects/Spawner/Spawner.yy",},},
     {"id":{"name":"verticalPlatform","path":"objects/verticalPlatform/verticalPlatform.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
