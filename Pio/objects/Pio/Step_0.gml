@@ -47,3 +47,8 @@ if (_colisao_chao != noone) {
 	}
 }
 y += yspeed
+
+if (place_meeting(x, y, aguia)) {
+    // Muda instantaneamente para a sala de Game Over
+    room_goto(rm_gameover);
+}
