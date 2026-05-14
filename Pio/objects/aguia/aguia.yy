@@ -29,6 +29,7 @@
     {"$GMObjectProperty":"v2","%Name":"xdirection","filters":[],"listItems":[],"multiselect":false,"name":"xdirection","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"ydirection","filters":[],"listItems":[],"multiselect":false,"name":"ydirection","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"_speed","filters":[],"listItems":[],"multiselect":false,"name":"_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"flip","filters":[],"listItems":[],"multiselect":false,"name":"flip","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

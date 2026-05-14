@@ -6,7 +6,7 @@ if(_score>=1000 && _score <= 1090){
 /*
 escolhe um dos 4 cantos da tela e gera uma aguia em um ponto aleatorio desse canto, andando
 */
-
+flipaguia=false
 if (random(2) <= 1){ //joga uma moeda
 	xaguia = random(1366)
 	xdirection_aguia = random_range(-1, 1)
@@ -18,6 +18,7 @@ if (random(2) <= 1){ //joga uma moeda
 		//limite inferior da tela
 		yaguia=768
 		ydirection_aguia = random_range(-1, 0)
+		flipaguia=true
 	}
 }else{ 
 	yaguia = random(768)
@@ -30,6 +31,7 @@ if (random(2) <= 1){ //joga uma moeda
 		//limite direito da tela
 		xaguia=1366
 		xdirection_aguia = random_range(-1, 0)
+		flipaguia=true
 	}
 }
 
@@ -40,7 +42,8 @@ if (random(100) <= aguia_spawnrate){
 	    ydirection: ydirection_aguia,
 	    _speed: random_range(1,5),
 		x: xaguia,
-		y:  yaguia
+		y:  yaguia,
+		flip: flipaguia
 	});
 	audio_play_sound(hawk, 10, false)
 	array_insert(aguias, -1, new_aguia)
