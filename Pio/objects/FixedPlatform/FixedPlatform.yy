@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Platform",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"FixedPlatform",
+  "eventList":[],
   "managed":true,
-  "name":"Platform",
+  "name":"FixedPlatform",
   "overriddenProperties":[],
   "parent":{
     "name":"Pio",
     "path":"Pio.yyp",
   },
   "parentObjectId":{
-    "name":"Ground",
-    "path":"objects/Ground/Ground.yy",
+    "name":"Platform",
+    "path":"objects/Platform/Platform.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -26,12 +24,7 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[
-    {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
-    {"x":64.0,"y":64.0,},
-    {"x":0.0,"y":64.0,},
-  ],
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
