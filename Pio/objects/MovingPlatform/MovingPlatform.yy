@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite5",
-    "path":"sprites/Sprite5/Sprite5.yy",
+    "name":"spriteMovingPlatform",
+    "path":"sprites/spriteMovingPlatform/spriteMovingPlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,14 +2,14 @@ if (respawning) {
     respawn_timer--;
 
     if (respawn_timer <= 0) {
-        breaking     = false;
-        destroyed    = false;
-        timer        = max_timer;
-        x            = origin_x;
-        shake_range  = 0;
-        image_alpha  = 1;
+        breaking = false;
+        destroyed = false;
+        timer = max_timer;
+        x = origin_x;
+        shake_range = 0;
+        image_alpha = 1;
         sprite_index = original_sprite;
-        respawning   = false;
+        respawning = false;
     }
     exit;
 }
@@ -30,19 +30,19 @@ if (breaking) {
     timer--;
 
     var _progress  = 1 - (timer / max_timer);
-    shake_range    = lerp(0, 4, _progress);
-    x              = origin_x + irandom_range(-shake_range, shake_range);
+    shake_range = lerp(0, 4, _progress);
+    x = origin_x + irandom_range(-shake_range, shake_range);
 
     if (timer < max_timer / 2) {
         image_alpha = 0.4 + 0.6 * ((timer mod 8) > 3);
     }
 
     if (timer <= 0) {
-        destroyed    = true;
-        x            = origin_x;
+        destroyed = true;
+        x = origin_x;
         sprite_index = -1;
-        image_alpha  = 1;
-        respawning   = true;
+        image_alpha = 1;
+        respawning = true;
         respawn_timer = max_respawn_timer;
     }
 }
@@ -50,14 +50,14 @@ if (respawning) {
     respawn_timer--;
 
     if (respawn_timer <= 0) {
-        breaking     = false;
-        destroyed    = false;
-        timer        = max_timer;
-        x            = origin_x;
-        shake_range  = 0;
-        image_alpha  = 1;
+        breaking = false;
+        destroyed = false;
+        timer = max_timer;
+        x = origin_x;
+        shake_range = 0;
+        image_alpha = 1;
         sprite_index = original_sprite;
-        respawning   = false;
+        respawning  = false;
     }
     exit;
 }
@@ -77,20 +77,20 @@ if (_on_top && !breaking) {
 if (breaking) {
     timer--;
 
-    var _progress  = 1 - (timer / max_timer);
-    shake_range    = lerp(0, 4, _progress);
-    x              = origin_x + irandom_range(-shake_range, shake_range);
+    var _progress = 1 - (timer / max_timer);
+    shake_range = lerp(0, 4, _progress);
+    x = origin_x + irandom_range(-shake_range, shake_range);
 
     if (timer < max_timer / 2) {
         image_alpha = 0.4 + 0.6 * ((timer mod 8) > 3);
     }
 
     if (timer <= 0) {
-        destroyed    = true;
-        x            = origin_x;
-        sprite_index = -1;
-        image_alpha  = 1;
-        respawning   = true;
+        destroyed = true;
+        x = origin_x;
+        sprite_index =  -1;
+        image_alpha = 1;
+        respawning = true;
         respawn_timer = max_respawn_timer;
     }
 }

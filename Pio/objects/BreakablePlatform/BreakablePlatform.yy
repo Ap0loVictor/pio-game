@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
+    "name":"spriteBreakblePlatform",
+    "path":"sprites/spriteBreakblePlatform/spriteBreakblePlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

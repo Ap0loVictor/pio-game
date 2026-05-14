@@ -1,6 +1,6 @@
 event_inherited();
 
-vel_y   = 2;
+vel_y = 2;
 range_y = 96;
 
 y_min = y - range_y;

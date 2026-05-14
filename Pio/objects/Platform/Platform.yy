@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite3",
-    "path":"sprites/Sprite3/Sprite3.yy",
+    "name":"spriteFixedPlatform",
+    "path":"sprites/spriteFixedPlatform/spriteFixedPlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

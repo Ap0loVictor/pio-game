@@ -1,4 +1,3 @@
-// --- Calcula para onde a plataforma VAI se mover (sem mover ainda) ---
 var _delta_x = vel_x;
 var _delta_y = vel_y;
 
