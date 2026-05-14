@@ -47,7 +47,7 @@ if (random(100) <= aguia_spawnrate){
 	});
 	audio_play_sound(hawk, 10, false)
 	array_insert(aguias, -1, new_aguia)
-	aguia_spawnrate -= 1
+	aguia_spawnrate -= array_length(aguias)
 	if aguia_spawnrate <= 0{
 		aguia_spawnrate = 0.1
 	}
@@ -125,7 +125,7 @@ if (random(100) <= bicada_spawnrate){
 	});
 	audio_play_sound(chicken, 10, false)
 	array_insert(bicadas, -1, new_bicada)
-	bicada_spawnrate -= 1
+	bicada_spawnrate -= array_length(bicadas)*1.5
 	if bicada_spawnrate <= 0{
 		bicada_spawnrate = 0.1
 	}
