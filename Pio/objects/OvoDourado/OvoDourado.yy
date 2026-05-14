@@ -9,8 +9,8 @@
   "name":"OvoDourado",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite11",
-    "path":"sprites/Sprite11/Sprite11.yy",
+    "name":"sprite_ovodouradonew",
+    "path":"sprites/sprite_ovodouradonew/sprite_ovodouradonew.yy",
   },
   "spriteMaskId":null,
   "visible":true,

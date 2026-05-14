@@ -9,8 +9,8 @@
   "name":"milho",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite10",
-    "path":"sprites/Sprite10/Sprite10.yy",
+    "name":"Sprite_milhonew",
+    "path":"sprites/Sprite_milhonew/Sprite_milhonew.yy",
   },
   "spriteMaskId":null,
   "visible":true,

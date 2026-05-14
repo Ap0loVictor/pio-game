@@ -8,8 +8,8 @@
   "name":"aguia",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"Sprite_aguianew",
+    "path":"sprites/Sprite_aguianew/Sprite_aguianew.yy",
   },
   "spriteMaskId":null,
   "visible":true,

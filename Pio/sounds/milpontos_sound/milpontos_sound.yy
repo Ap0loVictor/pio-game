@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"milpontos_sound",
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
