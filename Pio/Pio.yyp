@@ -24,6 +24,7 @@
     {"id":{"name":"Pio","path":"objects/Pio/Pio.yy",},},
     {"id":{"name":"Platform","path":"objects/Platform/Platform.yy",},},
     {"id":{"name":"Spawner","path":"objects/Spawner/Spawner.yy",},},
+    {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"jump","path":"sounds/jump/jump.yy",},},
     {"id":{"name":"musica1_unity","path":"sounds/musica1_unity/musica1_unity.yy",},},
@@ -32,11 +33,13 @@
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
