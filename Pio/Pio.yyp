@@ -33,6 +33,7 @@
     {"id":{"name":"Spawner","path":"objects/Spawner/Spawner.yy",},},
     {"id":{"name":"verticalPlatform","path":"objects/verticalPlatform/verticalPlatform.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
+    {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Sala_principal","path":"rooms/Sala_principal/Sala_principal.yy",},},
     {"id":{"name":"jump","path":"sounds/jump/jump.yy",},},
@@ -45,6 +46,7 @@
     {"id":{"name":"spr_pioo_idle","path":"sprites/spr_pioo_idle/spr_pioo_idle.yy",},},
     {"id":{"name":"spr_pioo_jump","path":"sprites/spr_pioo_jump/spr_pioo_jump.yy",},},
     {"id":{"name":"spr_pioo_walk","path":"sprites/spr_pioo_walk/spr_pioo_walk.yy",},},
+    {"id":{"name":"spr_jlucas_novo","path":"sprites/spr_jlucas_novo/spr_jlucas_novo.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
@@ -66,6 +68,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"Sala_principal","path":"rooms/Sala_principal/Sala_principal.yy",},},
+    {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
