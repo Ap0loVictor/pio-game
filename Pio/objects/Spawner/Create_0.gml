@@ -5,3 +5,5 @@ bicada_spawnrate = 0.1
 bicadas = []
 milho_spawnrate = 0.1
 milhos = []
+goldenegg_spawnrate = 0.001
+goldeneggs = []

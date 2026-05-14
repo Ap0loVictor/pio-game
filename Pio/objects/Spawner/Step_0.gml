@@ -125,6 +125,24 @@ if (random(100) <= bicada_spawnrate){
 	bicada_spawnrate += _score*0.0001
 }
 
+//ovos dourados
+
+//limite superior da tela
+xgoldenegg = random(1366)
+ygoldenegg = 0
+
+
+if (random(100) <= goldenegg_spawnrate){
+	var new_goldenegg = instance_create_layer(x, y, "Instances", OvoDourado, {
+		x: xgoldenegg,
+		y: ygoldenegg
+	});
+	array_insert(goldeneggs, -1, new_goldenegg)
+	goldenegg_spawnrate = 0.001
+}else{
+	goldenegg_spawnrate += 0.0001
+}
+
 //milhos
 
 //limite superior da tela
