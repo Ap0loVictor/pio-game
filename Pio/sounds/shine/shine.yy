@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"jump",
+  "%Name":"shine",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.9120181,
+  "duration":5.5680046,
   "exportDir":"",
-  "name":"jump",
+  "name":"shine",
   "parent":{
     "name":"Pio",
     "path":"Pio.yyp",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"jump.mp3",
-  "volume":0.3,
+  "soundFile":"shine.mp3",
+  "volume":1.0,
 }

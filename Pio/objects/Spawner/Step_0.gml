@@ -1,4 +1,7 @@
 _score = Pio._score
+if(_score>=1000 && _score <= 1090){
+	audio_play_sound(milpontos_sound, 10, false)
+}
 //aguia
 /*
 escolhe um dos 4 cantos da tela e gera uma aguia em um ponto aleatorio desse canto, andando
@@ -39,6 +42,7 @@ if (random(100) <= aguia_spawnrate){
 		x: xaguia,
 		y:  yaguia
 	});
+	audio_play_sound(hawk, 10, false)
 	array_insert(aguias, -1, new_aguia)
 	aguia_spawnrate -= 1
 	if aguia_spawnrate <= 0{
@@ -116,6 +120,7 @@ if (random(100) <= bicada_spawnrate){
 		y1: y1bicada,
 		timer: 2 
 	});
+	audio_play_sound(chicken, 10, false)
 	array_insert(bicadas, -1, new_bicada)
 	bicada_spawnrate -= 1
 	if bicada_spawnrate <= 0{
@@ -137,6 +142,7 @@ if (random(100) <= goldenegg_spawnrate){
 		x: xgoldenegg,
 		y: ygoldenegg
 	});
+	audio_play_sound(loquendo_ovo_dourado, 10, false)
 	array_insert(goldeneggs, -1, new_goldenegg)
 	goldenegg_spawnrate = 0.001
 }else{
