@@ -9,7 +9,7 @@ else if (fase == 1) {
     
     var hit = collision_line(x0, y0, x1, y1, Pio, false, false);
     if (hit != noone) {
-
+		room_goto(rm_gameover);	
     }
 }
 

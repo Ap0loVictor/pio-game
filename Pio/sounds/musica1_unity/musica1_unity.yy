@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"musica1_unity",
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

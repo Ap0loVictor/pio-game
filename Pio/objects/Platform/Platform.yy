@@ -8,8 +8,8 @@
   "name":"Platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":{
     "name":"Ground",
@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spriteFixedPlatform",
-    "path":"sprites/spriteFixedPlatform/spriteFixedPlatform.yy",
+    "name":"Sprite_platformnew",
+    "path":"sprites/Sprite_platformnew/Sprite_platformnew.yy",
   },
   "spriteMaskId":null,
   "visible":true,

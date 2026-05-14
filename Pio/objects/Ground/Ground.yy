@@ -6,8 +6,8 @@
   "name":"Ground",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite2",
-    "path":"sprites/Sprite2/Sprite2.yy",
+    "name":"Sprite_groundnew",
+    "path":"sprites/Sprite_groundnew/Sprite_groundnew.yy",
   },
   "spriteMaskId":null,
   "visible":true,

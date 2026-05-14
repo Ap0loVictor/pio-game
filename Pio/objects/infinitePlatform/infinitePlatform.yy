@@ -9,8 +9,8 @@
   "name":"infinitePlatform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":{
     "name":"MovingPlatform",

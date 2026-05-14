@@ -17,8 +17,8 @@
   ],
   "name":"rm_gameover",
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"rooms",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

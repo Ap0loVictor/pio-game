@@ -1,31 +1,38 @@
+_score = Pio._score
+if(_score>=1000 && milpontos_alcancados==false){
+	audio_play_sound(milpontos_sound, 10, false)
+	milpontos_alcancados=true
+}
 //aguia
 /*
 escolhe um dos 4 cantos da tela e gera uma aguia em um ponto aleatorio desse canto, andando
 */
-
+flipaguia=false
 if (random(2) <= 1){ //joga uma moeda
 	xaguia = random(1366)
 	xdirection_aguia = random_range(-1, 1)
 	if(random(2) <= 1){
 		//limite superior da tela
-		yaguia = 0
+		yaguia = 0 - 64
 		ydirection_aguia = random_range(0, 1)
 	}else{
 		//limite inferior da tela
-		yaguia=768
+		yaguia=768 + 64
 		ydirection_aguia = random_range(-1, 0)
+		flipaguia=true
 	}
 }else{ 
 	yaguia = random(768)
 	ydirection_aguia = random_range(-1, 1)
 	if(random(2) <= 1){
 		//limite esquerdo da tela
-		xaguia = 0
+		xaguia = 0 - 64
 		xdirection_aguia = random_range(0, 1)
 	}else{
 		//limite direito da tela
-		xaguia=1366
+		xaguia=1366 + 64
 		xdirection_aguia = random_range(-1, 0)
+		flipaguia=true
 	}
 }
 
@@ -33,24 +40,26 @@ if (random(100) <= aguia_spawnrate){
 	var new_aguia = instance_create_layer(x, y, "Instances", aguia, {
     
 		xdirection: xdirection_aguia,
-	    ydirection: ydirection_aguia,
-	    _speed: random_range(1,5),
+	    ydirection: ydirection_aguia, 
+	    _speed: random_range(2,max(2, 2*speed*0.001)),
 		x: xaguia,
-		y:  yaguia
+		y:  yaguia,
+		flip: flipaguia
 	});
+	audio_play_sound(hawk, 10, false)
 	array_insert(aguias, -1, new_aguia)
-	aguia_spawnrate -= 1
+	aguia_spawnrate -= array_length(aguias)
 	if aguia_spawnrate <= 0{
 		aguia_spawnrate = 0.1
 	}
 }else{
-	aguia_spawnrate += 0.1
+	aguia_spawnrate += _score*0.0003
 }
 
 //destruir aguias fora da tela
 for (var i = array_length(aguias) - 1; i >= 0; i--){
 	var a = aguias[i]
-	if (a.x > 1366 || a.x < 0 || a.y < 0 || a.y > 768){
+	if (a.x > 1366 + 64 || a.x < 0 - 64 || a.y < 0 - 64 || a.y > 768 + 64){
 		instance_destroy(aguias[i])
 		array_delete(aguias, i, 1)
 	}
@@ -113,13 +122,54 @@ if (random(100) <= bicada_spawnrate){
 		y0: y0bicada,
 		x1: x1bicada,
 		y1: y1bicada,
-		timer: 3
+		timer: 2.5
 	});
+	audio_play_sound(chicken, 10, false)
 	array_insert(bicadas, -1, new_bicada)
-	bicada_spawnrate -= 1
+	bicada_spawnrate -= array_length(bicadas)*1.5
 	if bicada_spawnrate <= 0{
 		bicada_spawnrate = 0.1
 	}
 }else{
-	bicada_spawnrate += 0.1
+	bicada_spawnrate += _score*0.0001
+}
+
+//ovos dourados
+
+//limite superior da tela
+xgoldenegg = random(1366)
+ygoldenegg = 0
+
+
+if (random(100) <= goldenegg_spawnrate){
+	var new_goldenegg = instance_create_layer(x, y, "Instances", OvoDourado, {
+		x: xgoldenegg,
+		y: ygoldenegg
+	});
+	audio_play_sound(loquendo_ovo_dourado, 10, false)
+	array_insert(goldeneggs, -1, new_goldenegg)
+	goldenegg_spawnrate = 0.001
+}else{
+	goldenegg_spawnrate += 0.0006
+}
+
+//milhos
+
+//limite superior da tela
+xmilho = random(1366)
+ymilho = 0
+
+
+if (random(100) <= milho_spawnrate){
+	var new_milho = instance_create_layer(x, y, "Instances", milho, {
+		x: xmilho,
+		y: ymilho
+	});
+	array_insert(milhos, -1, new_milho)
+	milho_spawnrate -= 1
+	if milho_spawnrate <= 0{
+		milho_spawnrate = 0.1
+	}
+}else{
+	milho_spawnrate += 0.02
 }

@@ -14,13 +14,13 @@
   "exportDir":"",
   "name":"jump",
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"jump.mp3",
-  "volume":1.0,
+  "volume":0.5,
 }

@@ -13,8 +13,8 @@
   ],
   "name":"GameOver",
   "parent":{
-    "name":"Pio",
-    "path":"Pio.yyp",
+    "name":"rooms",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
