@@ -4,4 +4,4 @@ if(draw_warning == true){
 }else if(draw_final == true){
 	draw_set_colour(#FF5C40)
 	draw_line_width(x0pre, y0pre, x1pre, y1pre, 4)
-}
+} 

@@ -1,3 +1,4 @@
+_score = Pio._score
 //aguia
 /*
 escolhe um dos 4 cantos da tela e gera uma aguia em um ponto aleatorio desse canto, andando
@@ -44,7 +45,7 @@ if (random(100) <= aguia_spawnrate){
 		aguia_spawnrate = 0.1
 	}
 }else{
-	aguia_spawnrate += 0.1
+	aguia_spawnrate += _score*0.0003
 }
 
 //destruir aguias fora da tela
@@ -113,7 +114,7 @@ if (random(100) <= bicada_spawnrate){
 		y0: y0bicada,
 		x1: x1bicada,
 		y1: y1bicada,
-		timer: 3
+		timer: 2 
 	});
 	array_insert(bicadas, -1, new_bicada)
 	bicada_spawnrate -= 1
@@ -121,5 +122,26 @@ if (random(100) <= bicada_spawnrate){
 		bicada_spawnrate = 0.1
 	}
 }else{
-	bicada_spawnrate += 0.1
+	bicada_spawnrate += _score*0.0001
+}
+
+//milhos
+
+//limite superior da tela
+xmilho = random(1366)
+ymilho = 0
+
+
+if (random(100) <= milho_spawnrate){
+	var new_milho = instance_create_layer(x, y, "Instances", milho, {
+		x: xmilho,
+		y: ymilho
+	});
+	array_insert(milhos, -1, new_milho)
+	milho_spawnrate -= 1
+	if milho_spawnrate <= 0{
+		milho_spawnrate = 0.1
+	}
+}else{
+	milho_spawnrate += 0.02
 }
