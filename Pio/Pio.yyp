@@ -24,7 +24,6 @@
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
     {"id":{"name":"Pio","path":"objects/Pio/Pio.yy",},},
     {"id":{"name":"Platform","path":"objects/Platform/Platform.yy",},},
-    {"id":{"name":"Prebicada","path":"objects/Prebicada/Prebicada.yy",},},
     {"id":{"name":"Spawner","path":"objects/Spawner/Spawner.yy",},},
     {"id":{"name":"Sala_principal","path":"rooms/Sala_principal/Sala_principal.yy",},},
     {"id":{"name":"jump","path":"sounds/jump/jump.yy",},},
